@@ -5,7 +5,7 @@ $('.column button .card').on('click', function () {
 
     if (nextMenu === 'proxy') {
         if (!config['proxy']) {
-            $('#disabled').showModal();
+            $('#enabled').showModal();
             return;
         }
         $('#everything-else').fadeOut(300, () => {
